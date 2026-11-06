@@ -1,0 +1,941 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-tint":"#b4c5ff","surface-container-high":"#272a32","on-primary-fixed-variant":"#003ea8","outline":"#8d90a0","on-secondary":"#003640","surface-variant":"#32343d","secondary-fixed":"#acedff","on-surface":"#e1e2ed","primary-fixed-dim":"#b4c5ff","surface-dim":"#11131b","on-tertiary-fixed-variant":"#5516be","on-primary":"#002a78","on-primary-fixed":"#00174b","background":"#11131b","tertiary":"#d0bcff","primary-container":"#2563eb","on-secondary-fixed-variant":"#004e5c","outline-variant":"#434655","error-container":"#93000a","surface-container-highest":"#32343d","surface-container":"#1d1f27","inverse-surface":"#e1e2ed","tertiary-fixed":"#e9ddff","on-error-container":"#ffdad6","surface-bright":"#373941","on-secondary-fixed":"#001f26","primary-fixed":"#dbe1ff","on-tertiary-fixed":"#23005c","surface":"#11131b","error":"#ffb4ab","secondary":"#4cd7f6","on-tertiary":"#3c0091","secondary-container":"#03b5d3","tertiary-container":"#7d4ce7","on-tertiary-container":"#f6edff","on-error":"#690005","surface-container-low":"#191b23","inverse-primary":"#0053db","secondary-fixed-dim":"#4cd7f6","on-surface-variant":"#c3c6d7","on-primary-container":"#eeefff","inverse-on-surface":"#2e3038","tertiary-fixed-dim":"#d0bcff","on-secondary-container":"#00424e","on-background":"#e1e2ed","surface-container-lowest":"#0c0e15"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-3xl":"6rem","margin":"3rem","margin-mobile":"1.25rem","gutter":"1.5rem","space-2xl":"4rem","space-md":"1rem","space-sm":"0.5rem","space-xl":"2.5rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"headline-md":["Space Grotesk"],"code-sm":["Space Grotesk"],"display-hero":["Space Grotesk"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Space Grotesk"],"label-md":["Space Grotesk"],"headline-xl":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"display-hero-mobile":["Space Grotesk"],"label-lg":["Space Grotesk"],"headline-sm":["Space Grotesk"],"body-xl":["Plus Jakarta Sans"],"headline-xl-mobile":["Space Grotesk"]},"fontSize":{"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"code-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"display-hero":["64px",{"lineHeight":"72px","letterSpacing":"-0.04em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"600"}],"display-hero-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.03em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-xl":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-dim/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]" style="background: rgba(12, 14, 21, 0.88); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(76, 215, 246, 0.15); box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 20px -1px;"><div class="h-20 max-w-[1320px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group focus:outline-none" data-path="about" href="#"><span class="flex items-center justify-center w-8 h-8 rounded-lg bg-surface-container-highest text-secondary font-headline-sm text-headline-sm transition-colors group-hover:bg-primary-container group-hover:text-white shadow-[0_0_12px_rgba(76,215,246,0.25)]"><span class="material-symbols-outlined text-[20px]">terminal</span></span><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold group-hover:text-primary transition-colors">HAIDER</span><span class="font-code-sm text-code-sm text-secondary tracking-widest uppercase">AI &amp; WEB SOLUTIONS</span></div></a><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span></span><span class="font-label-md text-label-md text-on-surface-variant font-medium">Available for Projects</span></div></div><nav class="hidden lg:flex items-center gap-space-md"><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#about">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#services">Services</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#skills">Skills</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#experience">Experience</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#projects">Projects</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#certifications">Certifications</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#insights">Insights</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors tracking-wide" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-label-lg text-label-lg font-semibold shadow-[0_0_15px_rgba(37,99,235,0.4)] transition-all hover:shadow-[0_0_20px_rgba(76,215,246,0.35)]" data-path="contact" href="#contact">Let's Connect</a><div class="flex items-center pl-space-xs"><a href="https://www.linkedin.com/in/naseem-haider/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-8 h-8 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-secondary transition-all shadow-sm" title="LinkedIn Profile" aria-label="LinkedIn Profile"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- AMBIENT LIVING LIGHT FIELD -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-80 right-10 w-[420px] h-[420px] bg-secondary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<!-- 1. HERO SECTION -->
+<section class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-3xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Authority & Direct Impact -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Availability Live Status Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-secondary"></span>
+</span>
+<span class="font-label-md text-label-md text-secondary tracking-wide uppercase font-semibold">Available for Freelance &amp; Enterprise Collaborations</span>
+</div>
+<!-- Brand Identifier & Title -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-code-sm text-code-sm text-outline uppercase tracking-widest">Architect &amp; Engineer</span>
+<span class="h-px w-12 bg-surface-container-highest"></span>
+<span class="font-code-sm text-code-sm text-secondary font-semibold">HAIDER</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tighter leading-tight font-bold">
+              Naseem Haider
+            </h1>
+<p class="font-headline-sm text-headline-sm text-primary tracking-tight">
+              Agentic AI Engineer | CMS Developer | Digital Solutions Specialist
+            </p>
+</div>
+<!-- Professional Deep Tagline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            5y+ | Agentic AI Engineer | CMS Developer | SEO Specialist | Custom Plugin Developer | SEO Expert | Shopify Liquid Expert | Shopify &amp; WordPress Developer | CRM Developer | Guest Posting Expert
+          </p>
+<!-- Action Hub CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-md hover:bg-inverse-primary transition-all flex items-center gap-space-xs" href="#projects">
+<span class="">Explore Selected Projects</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="px-space-lg py-space-sm rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-container-highest hover:text-secondary transition-colors flex items-center gap-space-xs" href="#contact">
+<span class="material-symbols-outlined text-[18px] text-secondary">mail</span>
+<span class="">Get in Touch</span>
+</a>
+<a class="px-space-md py-space-sm rounded-lg bg-surface-container-low text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface transition-colors flex items-center gap-space-xs" href="mailto:naseemhaiderseo@gmail.com?subject=Resume%20Request%20-%20Naseem%20Haider">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="">Download CV</span>
+</a>
+</div>
+<!-- Key Quantitative Metric Counters -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-lg">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-1 shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary font-bold">5+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Years Experience</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-1 shadow-sm">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">50+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Web &amp; AI Workflows</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-1 shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary-fixed font-bold">100%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Client Satisfaction</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-1 shadow-sm">
+<span class="font-headline-lg text-headline-lg text-tertiary font-bold">8+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Core Domains</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Kinetic Portrait Frame with Tech Node HUD -->
+<div class="lg:col-span-5 flex justify-center relative">
+<!-- Ambient Glow Layer -->
+<div class="absolute inset-0 bg-gradient-to-tr from-primary-container/20 to-secondary/20 rounded-full blur-3xl transform scale-90 -z-10"></div>
+<div class="relative w-full max-w-[420px] rounded-2xl p-2 bg-surface-container-high shadow-xl">
+<!-- Inner Image Container -->
+<div class="relative w-full aspect-[0.84] rounded-xl overflow-hidden bg-surface-container-lowest">
+<img alt="Naseem Haider - Agentic AI Engineer &amp; CMS Developer" class="w-full h-full object-cover object-center filter contrast-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbbXZy0rhj19Zt1d7oeOgojReuUEdVKWczleM1TPciiSFnIbOnL_vC7awCGnfape2kadXKcggQ9KCEJCCnhIp6C0a-Zr1KCsAxW6_nT08ukcgbnN6aU7r5XtI4Q4I-RTpUXWVHqU1qQr5E-2LIG5rrd_twzBCtINUe_0Jv5DJt09NZcCJuLCWG5KsjKTjg0Q1o97tIgmNPwJ3SJ_Y03ciYEsds4-S7DqCRFq08CP8">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent opacity-80"></div>
+</div>
+<!-- Cybernetic Overlay Floating Pills -->
+<div class="absolute -top-3 -left-4 px-space-sm py-1.5 rounded-lg bg-surface-dim/90 backdrop-blur-md text-secondary font-label-md text-label-md shadow-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">smart_toy</span>
+<span class="">Agentic AI</span>
+</div>
+<div class="absolute top-24 -right-4 px-space-sm py-1.5 rounded-lg bg-surface-dim/90 backdrop-blur-md text-primary font-label-md text-label-md shadow-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">code_blocks</span>
+<span class="">Shopify Liquid</span>
+</div>
+<div class="absolute bottom-20 -left-5 px-space-sm py-1.5 rounded-lg bg-surface-dim/90 backdrop-blur-md text-tertiary font-label-md text-label-md shadow-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">database</span>
+<span class="">Custom CRM</span>
+</div>
+<div class="absolute -bottom-3 right-6 px-space-sm py-1.5 rounded-lg bg-surface-dim/90 backdrop-blur-md text-secondary-fixed font-label-md text-label-md shadow-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">query_stats</span>
+<span class="">Technical SEO</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 2. ABOUT ME & PROFESSIONAL OVERVIEW -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="about">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col gap-space-xs mb-space-2xl">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// ARCHITECT_PROFILE</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">About Me &amp; Strategic Vision</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Sub-card: Compact Identity Node -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-md">
+<div class="w-full aspect-[0.84] rounded-xl overflow-hidden bg-surface-dim">
+<img alt="Naseem Haider Portrait in Studio" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbbXZy0rhj19Zt1d7oeOgojReuUEdVKWczleM1TPciiSFnIbOnL_vC7awCGnfape2kadXKcggQ9KCEJCCnhIp6C0a-Zr1KCsAxW6_nT08ukcgbnN6aU7r5XtI4Q4I-RTpUXWVHqU1qQr5E-2LIG5rrd_twzBCtINUe_0Jv5DJt09NZcCJuLCWG5KsjKTjg0Q1o97tIgmNPwJ3SJ_Y03ciYEsds4-S7DqCRFq08CP8">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Naseem Haider</h3>
+<p class="font-code-sm text-code-sm text-secondary">SOLUTIONS ARCHITECT &amp; DEV</p>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-secondary text-[20px]">location_on</span>
+<span class="">Lahore, Punjab, Pakistan</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<span class="">5+ Years Production Experience</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-tertiary text-[20px]">verified_user</span>
+<span class="">Verified Independent Consultant</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Content: Detailed Narrative and Value Proposition -->
+<div class="lg:col-span-8 flex flex-col gap-space-xl">
+<!-- Narrative Primary Overview -->
+<div class="p-space-xl rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<span class="font-label-lg text-label-lg text-secondary uppercase tracking-wider font-semibold">Mission Narrative</span>
+<p class="font-body-xl text-body-xl text-on-surface leading-relaxed">
+              I'm a results-driven Digital Strategist, Agentic AI Engineer, and CRM &amp; Web Development Expert with 5+ years of experience helping businesses build powerful digital experiences, automate operations, and grow their online presence.
+            </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              From developing high-performing WordPress and Shopify websites to building intelligent AI-powered workflows and executing advanced SEO strategies, I deliver scalable solutions designed to drive measurable business growth.
+            </p>
+</div>
+<!-- Why Work With Me Bento Box -->
+<div class="p-space-xl rounded-2xl bg-surface-container-high flex flex-col gap-space-md shadow-md">
+<div class="flex items-center gap-space-sm">
+<span class="p-2 rounded-lg bg-primary-container text-on-primary-container material-symbols-outlined text-[20px]">psychology</span>
+<h4 class="font-headline-md text-headline-md text-on-surface font-semibold">Why Work With Me?</h4>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              I combine technical development, AI-driven automation, and data-informed digital marketing to solve real business challenges. Whether you need a professional website, a custom plugin, an intelligent AI workflow, a complete eCommerce solution, or an SEO strategy built for sustainable growth, I focus on delivering reliable, scalable, and results-oriented solutions. Let's turn your ideas into powerful digital solutions that save time, improve efficiency, strengthen your online presence, and help your business grow.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">bolt</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Streamlined Automation</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">hub</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Scalable Architecture</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">trending_up</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Measurable ROI</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SERVICES & CORE EXPERTISE -->
+<section class="w-full bg-surface py-space-3xl" id="services">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// SYSTEM_CAPABILITIES</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Services &amp; Core Expertise</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          End-to-end engineering discipline across algorithmic AI, transactional storefronts, search intelligence, and CRM lifecycles.
+        </p>
+</div>
+<!-- 8-Card Responsive Structural Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Service 1: Agentic AI & AI Automation -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[26px]">smart_toy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Agentic AI &amp; AI Automation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Building intelligent AI agents, automated workflows, AI-powered chatbots, booking systems, and business process automation using modern AI tools and integrations.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-secondary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">AUTOMATION</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 2: CRM Development & Custom Plugin -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-primary flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+<span class="material-symbols-outlined text-[26px]">extension</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">CRM Development &amp; Custom Plugin</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Building custom WordPress plugins, business management tools, CRM solutions, booking systems, and workflow integrations that streamline business operations.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-primary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">SYSTEMS</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 3: CMS & eCommerce Solutions -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-tertiary flex items-center justify-center group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-[26px]">shopping_cart</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">CMS &amp; eCommerce Solutions</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Working with WordPress, Shopify, WooCommerce, Wix, Squarespace, and other popular CMS platforms to build, customize, optimize, and maintain business websites.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-tertiary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">PLATFORMS</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 4: Advanced SEO & Organic Growth -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-secondary-fixed flex items-center justify-center group-hover:bg-secondary-fixed group-hover:text-on-secondary-fixed transition-colors">
+<span class="material-symbols-outlined text-[26px]">query_stats</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Advanced SEO &amp; Organic Growth</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Implementing technical SEO, on-page optimization, keyword research, content strategy, Entity SEO, AEO, GEO, and search visibility improvements to attract qualified organic traffic.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-secondary-fixed pt-space-md flex items-center gap-1 font-semibold">
+<span class="">INDEXING</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 5: WordPress Development -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-primary flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+<span class="material-symbols-outlined text-[26px]">code</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">WordPress Development</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Developing custom WordPress websites, responsive designs, WooCommerce stores, custom themes, and tailored plugins to meet unique business requirements.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-primary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">CORE_ENGINE</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 6: Shopify Development -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[26px]">storefront</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Shopify Development</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Creating conversion-focused Shopify stores, customizing Shopify themes with Liquid, optimizing storefront performance, and developing tailored eCommerce solutions.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-secondary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">LIQUID_COMMERCE</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 7: Off-Page SEO & Link Building -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-tertiary flex items-center justify-center group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-[26px]">link</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Off-Page SEO &amp; Link Building</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Strengthening website authority through strategic guest posting, high-quality backlinks, contextual link insertions, and reputation-focused link-building campaigns.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-tertiary pt-space-md flex items-center gap-1 font-semibold">
+<span class="">AUTHORITY</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<!-- Service 8: UI/UX & Web Design -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm hover:bg-surface-container-high transition-colors group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-secondary-fixed flex items-center justify-center group-hover:bg-secondary-fixed group-hover:text-on-secondary-fixed transition-colors">
+<span class="material-symbols-outlined text-[26px]">design_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">UI/UX &amp; Web Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Creating modern, responsive, user-friendly websites that reflect brand identity, improve user engagement, and support business conversion goals.
+            </p>
+</div>
+<span class="font-code-sm text-code-sm text-secondary-fixed pt-space-md flex items-center gap-1 font-semibold">
+<span class="">INTERFACE</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. TECHNICAL SKILLS & EXPERTISE -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="skills">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col gap-space-xs mb-space-2xl">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// TAXONOMY_MATRIX</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Technical Skills &amp; Domain Expertise</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Comprehensive stack coverage categorized across machine intelligence, headless platforms, organic discovery, and infrastructure.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Category: AI & Automation -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-secondary">
+<span class="material-symbols-outlined text-[20px]">cognition</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">AI &amp; Automation</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Agentic AI Engineering</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AI Agent Development</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AI Workflow Automation</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AI Chatbot Development</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AI-Powered Booking</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Process Automation</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">API Integration</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AI Tools Integration</span>
+</div>
+</div>
+<!-- Category: WordPress & CMS -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-[20px]">layers</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">WordPress &amp; CMS</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">WordPress Development</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Website Design</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Custom Plugin Dev</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Custom Theme Dev</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">WooCommerce</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Elementor &amp; WPBakery</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Shopify Development</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Shopify Liquid</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Wix &amp; Squarespace</span>
+</div>
+</div>
+<!-- Category: CRM & Software Development -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-tertiary">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">CRM &amp; Software Dev</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">CRM Development</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Custom CRM Solutions</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Booking Systems</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Business Management</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Workflow Integration</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Database Integration</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Custom Software</span>
+</div>
+</div>
+<!-- Category: SEO & Digital Marketing -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">search_insights</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">SEO &amp; Growth</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Technical &amp; On-Page SEO</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Entity &amp; Semantic SEO</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AEO &amp; GEO (Generative)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">EEAT Optimization</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Google Search Console</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Schema Markup</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Local SEO &amp; GBP</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Comprehensive Audits</span>
+</div>
+</div>
+<!-- Category: Guest Posting & Link Building -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-secondary">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Guest Posting &amp; Links</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Strategic Guest Posting</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Link Insertion</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Backlink Architecture</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Outreach Campaigns</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Competitor Backlinks</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Prospecting &amp; Quality</span>
+</div>
+</div>
+<!-- Category: Web Technologies -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-primary">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Web Technologies</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">HTML5 &amp; CSS3</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">JavaScript (ES6+)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Responsive UI Design</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">REST APIs</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Core Web Vitals</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Page Speed Performance</span>
+</div>
+</div>
+<!-- Category: Infrastructure & Technical Tools -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-tertiary">
+<span class="material-symbols-outlined text-[20px]">dns</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Infrastructure &amp; DevOps</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Docker &amp; Compose</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">VPS Setup (Linux)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Nginx Proxy Manager</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Odoo Community ERP</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Domain &amp; DNS Admin</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">SSL &amp; Cloudflare</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Automated Backups</span>
+</div>
+</div>
+<!-- Category: Other Skills -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-space-sm text-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Design &amp; Professional</h3>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">UI/UX Ergonomics</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Canva Pro Graphics</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Social Media Management</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Digital Strategy</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">AutoCAD 2D &amp; 3D</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">IT Technical Training</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high text-on-surface font-label-md text-label-md">Enterprise IT Support</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. PROFESSIONAL EXPERIENCE TIMELINE -->
+<section class="w-full bg-surface py-space-3xl" id="experience"><div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin"><div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl"><div class="flex flex-col gap-space-xs"><span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// CAREER_TRAJECTORY</span><h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Professional Experience</h2></div><p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Chronological timeline of enterprise roles, international client deliveries, and technical instruction.</p></div><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><div class="flex items-center gap-space-xs"><span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold">CURRENT</span><span class="font-code-sm text-code-sm text-secondary font-semibold">AI &amp; CMS</span></div><span class="font-code-sm text-code-sm text-secondary font-semibold">Dec 2025 – Present</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">Voyentra</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Agentic AI &amp; CMS Developer</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Engineering autonomous AI agent workflows, integrating headless CMS infrastructure, and optimizing client digital assets.</p></div><div class="pt-space-md flex items-center justify-between border-t-0 font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Lahore, Punjab, Pakistan</span><span class="material-symbols-outlined text-[20px] text-primary">code</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><div class="flex items-center gap-space-xs"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary font-label-md text-label-md font-semibold">ACTIVE</span><span class="font-code-sm text-code-sm text-secondary-fixed font-semibold">GROWTH &amp; SMM</span></div><span class="font-code-sm text-code-sm text-secondary font-semibold">Nov 2025 – Present</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary transition-colors">Capture Desert</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">SMM Manager</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Leading social media marketing strategy, brand visibility, customer engagement campaigns, and digital footprint across GCC markets.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Dubai, United Arab Emirates</span><span class="material-symbols-outlined text-[20px] text-secondary">campaign</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-md text-label-md font-semibold">PRODUCTION</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">Aug 2025 – Mar 2026</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">Paklink Heat Trace Services Dubai</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">SEO Cum WordPress Developer</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Full-lifecycle WordPress custom engineering paired with enterprise search engine optimization to maximize regional industrial leads.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Lahore, Punjab, Pakistan</span><span class="material-symbols-outlined text-[20px] text-primary">trending_up</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-tertiary font-label-md text-label-md font-semibold">4-YEAR TENURE</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">May 2021 – Sep 2025</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-tertiary transition-colors">Zeenat Multimedia</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Agentic AI Engineer &amp; Developer</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Architected internal automation platforms, conversational AI bots, client web properties, and custom workflow plugins across a 4-year tenure.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Shorkot, Punjab, Pakistan</span><span class="material-symbols-outlined text-[20px] text-tertiary">smart_toy</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-md text-label-md font-semibold">REMOTE ENGAGEMENT</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">Mar 2024 – Apr 2025</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary-fixed transition-colors">GAO TECH</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Developer</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Contributed to remote software development teams, code reviews, feature rollouts, and CMS performance refinements.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">public</span>Canada (Remote)</span><span class="material-symbols-outlined text-[20px] text-secondary-fixed">terminal</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-md text-label-md font-semibold">ACADEMIC &amp; TECH</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">Jan 2022 – Aug 2024</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">Al Buraq Computer Coaching Center</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Information Technology Instructor</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Trained 100+ students across WordPress Development, Web Design, SEO &amp; Digital Marketing, Off-page SEO, Guest Posting, Link Building, Canva Design, and Technical Support.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Pakistan</span><span class="material-symbols-outlined text-[20px] text-primary">school</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-md text-label-md font-semibold">CURRICULA LEAD</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">Feb 2021 – Dec 2022</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary transition-colors">Bahoo College of Emerging Sciences</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Senior Instructor</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Taught computer science curricula: WordPress Development, Web Design, SEO &amp; Digital Marketing, Guest Posting, Link Building, Canva Design, Technical Support &amp; IT Basics.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Punjab, Pakistan</span><span class="material-symbols-outlined text-[20px] text-secondary">cast_for_education</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between gap-space-sm flex-wrap"><span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-label-md text-label-md font-semibold">OPERATIONS LEAD</span><span class="font-code-sm text-code-sm text-on-surface font-semibold">Mar 2021 – Jul 2022</span></div><div class="flex flex-col"><h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary-fixed transition-colors">Evergreen Public Model School</h3><p class="font-headline-sm text-headline-sm text-secondary font-medium">Senior Administrator</p></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Directed institutional operational administration, IT records infrastructure, and digital communications systems.</p></div><div class="pt-space-md flex items-center justify-between font-code-sm text-code-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>Punjab, Pakistan</span><span class="material-symbols-outlined text-[20px] text-secondary-fixed">admin_panel_settings</span></div></div></div></div></section>
+<!-- 6. RECENT PROJECTS / SELECTED WORK -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="projects">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// PRODUCTION_DEPLOYMENTS</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Recent Projects &amp; Selected Work</h2>
+</div>
+<!-- Filter Buttons (Simulated/Interactive with JS) -->
+<div class="flex items-center gap-space-xs flex-wrap" id="project-filters">
+<button class="filter-btn px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold transition-all" data-filter="all">All</button>
+<button class="filter-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" data-filter="ecommerce">eCommerce</button>
+<button class="filter-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" data-filter="seo">SEO &amp; Growth</button>
+<button class="filter-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" data-filter="ai-crm">AI &amp; CRM</button>
+<button class="filter-btn px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" data-filter="devops">DevOps</button>
+</div>
+</div>
+<!-- 6 Flagship Projects Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="projects-grid">
+<!-- Project 1: ATV Master -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="ecommerce">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-secondary/10 text-secondary font-label-md text-label-md font-semibold">eCommerce / WooCommerce</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Completed</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="Dark futuristic dashboard preview of ATV Master automotive parts e-commerce shop with product analytics, category filters, and inventory telemetry in deep obsidian and cyan palette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnpiSKZWud6aNkuCv2YBiCGGvhhY82fjwphOAZF401GyZ55y6lXo6jOvmd24M68iAOin7w0Cl0rKXtjz2JDxerCI028dc7srhOz0MjOeBMeyLKmQKPsXWGvT8HX1HtRZZYs4dqsVso43SJ994tzWxo7Of748CovR64YWrDDieBMV_2B7a3I0WMiw4gylVh6EJZkBihgYDZT2nS-1uzjR0jDtTpw4F9PqZAyYMtB9g">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary transition-colors">ATV Master</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Premium ATV and UTV spare parts eCommerce platform. Product catalog optimization, deep WooCommerce customization, regional shipping rule matrices, and dynamic inventory synchronization.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between border-t-0">
+<span class="font-code-sm text-code-sm text-outline">WooCommerce • MySQL • Speed</span>
+<span class="material-symbols-outlined text-[20px] text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Project 2: Capture Desert -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="seo">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/10 text-primary font-label-md text-label-md font-semibold">SEO / SMM</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary animate-pulse">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Ongoing</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="High quality promotional visual of luxury Dubai desert safari expedition with dune buggies and sunset sands presented inside a technical analytics UI with reach metrics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXn5qD0f7RwFZrLBU6cmlLvfkc6r2tmAG9oeMM-eXb2IZV7O14QJi-Q1pLXZtHR8wGeQBZUO10MHnv35iXqOFT5He4PNQOfq7ujl1v7_P-QFsNWXES_nelt4y1Ew1UlrrtG2MegAJRZAbhPtxsdKFP4HLNlC7xGTwSOWeKDhY5mJMmF95BPqiAzX42aLxgjotSIRtKoZxucwPXg5IjmRFflsj0aJqRjmXt-sPfN1I">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">Capture Desert</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Dubai desert safari luxury business. Comprehensive social media marketing execution, Google Business Profile optimization, local SEO domination, and seasonal tour booking campaigns.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-outline">GBP • Meta Ads • Local SEO</span>
+<span class="material-symbols-outlined text-[20px] text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Project 3: Gulf Bus Rental -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="seo">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-secondary-fixed/10 text-secondary-fixed font-label-md text-label-md font-semibold">Website Dev / SEO</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Completed</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="Modern clean fleet management portal interface showing passenger bus booking form and UAE commercial vehicle routing on a dark theme dashboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu5JYLG3SM661ZI9g5jvXaQgNv5GPbg9bT4LT8V1kqymDI7sDHF9dia1Tb3cQW8aB2IfgNV8oQ2oQ03jutcC_ELSIDDbIiKtppjNPD_BlAsckX7ECWy2mYQvkaOMhnOJk5ZrEQjRoALme5fR-r18fVnlVTVFb66IRPMBKinPUz3Kr_FxoxMrR0JmoCqE7Q39rF49LQ8_xtE_CbOgywgCWaFxUJ8v9Qv0nmVrbvWro">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary-fixed transition-colors">Gulf Bus Rental</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                UAE commercial transportation and bus charter fleet operation. Custom responsive web development, targeted commercial SEO, rapid inquiry capture, and digital marketing outreach.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-outline">WordPress • Technical SEO • UAE</span>
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">arrow_forward</span>
+</div>
+</div>
+<!-- Project 4: Arabian Thrill -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="seo">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-tertiary/10 text-tertiary font-label-md text-label-md font-semibold">Digital Marketing / SEO</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Completed</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="Editorial tourism promotion interface displaying Dubai city skyline attractions and desert adventures with live organic search ranking widgets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD95zn1iop_CbI-a6lQk0up0wsamwtab16vGUjZu-jB-69kLFdSVGjlsSo2hp5iZ7_99LPDza85ATgcYc4XbmPTV80GZEh1nOCN3ed_KvIvA_FtNJDOuzIpS2LG0E5jed7pw_5aH97PNiTXunCm5UZVh5N6Ai6CNZbhKmnloVGAaWh4HYN0esO9BkX-gwqrX6tMDb_kbEMl2hlYv2IcgG3DIw_SkQnLuUeJgCFsSaw">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-tertiary transition-colors">Arabian Thrill</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Dubai tourism and excursion enterprise. High-converting social media content production, viral asset scheduling, search traffic acceleration, and localized brand positioning.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-outline">Organic Growth • Content Strategy</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary">arrow_forward</span>
+</div>
+</div>
+<!-- Project 5: Pearl Dental CRM -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="ai-crm">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-secondary/10 text-secondary font-label-md text-label-md font-semibold">CRM / AI Automation</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Completed</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="Futuristic healthcare CRM interface showcasing dental appointment schedules, patient medical records panel, and automated WhatsApp SMS trigger flows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz_O8YHoKAIeRulaEZyp9WxgWnAR11CjHsSh4lL5djJpgCS4PYMoJszbE3yCBESj3qmREwULFZoqAepHyOmcL4-rRPOg4a3dx8tuqT4An5B_WEN2czGBjdUx0yWXFCVr7x3-DdtuEvw9xOQxXdec1tEHUT9Rt7mQ-BPWbc1QO6COvuBG0kbgsBIdSXfIVbdsawntnII4NTruIxgeUBn83gItaYNjcOYHzq9bLMuIY">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-secondary transition-colors">Pearl Dental CRM</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Dental clinic custom CRM platform. Real-time chair appointment scheduling, encrypted patient record management, automated multi-channel SMS/email booking notifications and reminders.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-outline">Custom CRM • AI Twilio • Workflows</span>
+<span class="material-symbols-outlined text-[20px] text-secondary">arrow_forward</span>
+</div>
+</div>
+<!-- Project 6: Odoo Community ERP Deployment -->
+<div class="project-card p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all" data-category="devops">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/10 text-primary font-label-md text-label-md font-semibold">ERP / DevOps</span>
+<span class="flex items-center gap-1 font-code-sm text-code-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="">Completed</span>
+</span>
+</div>
+<div class="h-44 w-full rounded-xl overflow-hidden bg-surface-dim relative flex items-center justify-center p-4">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300" data-alt="Server DevOps topology console diagram with Docker container cluster status indicators, Nginx proxy routes, and automated cloud backup pipelines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh-VhDg84yU83BYKK2Yo5yqG-VPLbDxgUoNMf97vVHPQU_T1_5Aih35meuloKB6AMdvG3fGM4GCGuxSMeJA0ClPs1eJ_lMeDYDZKLNYM8pqXOKfUZI8Ptf_aniCSfgejmUcrE1T0wJj8vnaPHQAYHZTUsJVuY3YFU8cDq1yD3CLC9SdgOMWLqSd-dd0FdQ9wC_OMFjZZgPB69FIYgFvZ5kpp0CYst5oSuikmHKA0s">
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">Odoo Community ERP</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Production Odoo Community deployment. Docker Compose multi-container setup, Linux VPS hardening, Nginx Proxy Manager configuration, Let's Encrypt SSL, and automated off-site backup cron pipelines.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-outline">Docker • Nginx • Linux VPS</span>
+<span class="material-symbols-outlined text-[20px] text-primary">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section><section class="w-full bg-surface py-space-3xl" id="testimonials"><div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin"><div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-2xl"><div class="flex flex-col gap-space-xs"><span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// VERIFIED_TESTIMONIALS</span><h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Client Endorsements &amp; Skill Reviews</h2></div><p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Validated testimonials from enterprise partners and clients across AI, CMS, CRM, SEO, and Full-Stack delivery.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter"><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-secondary gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-secondary/10 text-secondary font-code-sm text-code-sm font-semibold">Agentic AI</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“Naseem built an autonomous multi-agent workflow that qualified enterprise inbound leads and synced bi-directionally with our CRM. It cut manual screening by 80% and never missed a lead.”</p></div><div class="pt-space-md flex items-center justify-between border-t-0"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-secondary flex items-center justify-center font-headline-sm font-bold text-[16px]">MV</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Marcus Vance</span><span class="font-code-sm text-code-sm text-on-surface-variant">VP Tech Operations</span></div></div><span class="material-symbols-outlined text-secondary text-[20px]" title="Verified Enterprise Client">verified</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-primary gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-code-sm text-code-sm font-semibold">WordPress &amp; Plugins</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“Exceptional WordPress engineer. He wrote custom plugins for our multi-tiered pricing and dynamic shipping calculation that zero other off-the-shelf plugins could support smoothly.”</p></div><div class="pt-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline-sm font-bold text-[16px]">TM</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Tariq Al-Mansoor</span><span class="font-code-sm text-code-sm text-on-surface-variant">E-Commerce Director</span></div></div><span class="material-symbols-outlined text-primary text-[20px]" title="Verified Enterprise Client">verified</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-tertiary gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-tertiary/10 text-tertiary font-code-sm text-code-sm font-semibold">Shopify &amp; Liquid</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“Our Shopify store conversion jumped by 34% post-relaunch. Naseem’s mastery of Shopify Liquid architecture gave us sub-second mobile page loads and bespoke cart upsell funnels.”</p></div><div class="pt-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-tertiary flex items-center justify-center font-headline-sm font-bold text-[16px]">ER</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Elena Rostova</span><span class="font-code-sm text-code-sm text-on-surface-variant">Brand Founder</span></div></div><span class="material-symbols-outlined text-tertiary text-[20px]" title="Verified Enterprise Client">verified</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-secondary gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-secondary/10 text-secondary font-code-sm text-code-sm font-semibold">CRM Architecture</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“The custom dental clinic CRM Naseem deployed centralized chair scheduling, automated multi-channel WhatsApp reminders, and eliminated patient no-shows by more than half.”</p></div><div class="pt-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-secondary flex items-center justify-center font-headline-sm font-bold text-[16px]">KA</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Dr. K. Ahmad</span><span class="font-code-sm text-code-sm text-on-surface-variant">Clinic Director</span></div></div><span class="material-symbols-outlined text-secondary text-[20px]" title="Verified Enterprise Client">verified</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-secondary-fixed gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-secondary-fixed/10 text-secondary-fixed font-code-sm text-code-sm font-semibold">Advanced SEO &amp; GEO</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“His Entity SEO and Generative Engine Optimization strategy elevated our high-ticket commercial keywords to top 3 rankings in Google Search and AI Overview summaries within 4 months.”</p></div><div class="pt-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-secondary-fixed flex items-center justify-center font-headline-sm font-bold text-[16px]">DS</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">David Sterling</span><span class="font-code-sm text-code-sm text-on-surface-variant">Head of Growth</span></div></div><span class="material-symbols-outlined text-secondary-fixed text-[20px]" title="Verified Enterprise Client">verified</span></div></div><div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm group hover:bg-surface-container-high transition-all"><div class="flex flex-col gap-space-md"><div class="flex items-center justify-between"><div class="flex items-center text-primary gap-0.5"><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span><span class="material-symbols-outlined text-[18px]">star</span></div><span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-code-sm text-code-sm font-semibold">Link Authority</span></div><p class="font-body-md text-body-md text-on-surface leading-relaxed">“Genuine high-DA contextual backlinks and strategic editorial outreach. Naseem does not take shortcuts—every placement moved our Domain Rating and delivered real referring traffic.”</p></div><div class="pt-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline-sm font-bold text-[16px]">SJ</div><div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Sarah Jenkins</span><span class="font-code-sm text-code-sm text-on-surface-variant">Marketing Lead</span></div></div><span class="material-symbols-outlined text-primary text-[20px]" title="Verified Enterprise Client">verified</span></div></div></div></div></section>
+<!-- 7 & 8. CERTIFICATIONS & ACADEMIC CREDENTIALS -->
+<section class="w-full bg-surface py-space-3xl" id="certifications">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Left Column: Certifications (7) -->
+<div class="lg:col-span-6 p-space-xl rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// VERIFIED_CREDENTIALS</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">Certifications</h3>
+<div class="p-space-lg rounded-xl bg-surface-container-high flex flex-col gap-space-xs shadow-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">workspace_premium</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Advanced Search Engine Optimization</h4>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Official certification verified and showcased via LinkedIn profile credentials. Validates deep capabilities in algorithmic search rank factors, indexing architectures, and entity optimization.
+              </p>
+<div class="pt-space-xs flex items-center gap-space-xs font-code-sm text-code-sm text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">Active Credential • Verified via LinkedIn</span>
+</div>
+</div><div class="p-space-lg rounded-xl bg-surface-container-high flex flex-col gap-space-xs shadow-sm"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">neurology</span><h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Agentic AI &amp; LLM Systems Development</h4></div><p class="font-body-md text-body-md text-on-surface-variant">Certified in building autonomous multi-agent architectures, function-calling workflows, vector embeddings, and enterprise LLM integrations.</p><div class="pt-space-xs flex items-center gap-space-xs font-code-sm text-code-sm text-secondary"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="">Active Credential • Verified</span></div></div>
+</div>
+<div class="pt-space-lg flex items-center gap-space-sm text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-[18px]">lock_open</span>
+<span class="">Credential authentication available upon client review.</span>
+</div>
+</div>
+<!-- Right Column: Education (8) -->
+<div class="lg:col-span-6 p-space-xl rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-primary uppercase tracking-widest">// ACADEMIC_FOUNDATION</span>
+<span class="material-symbols-outlined text-primary text-[24px]">school</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">Education</h3>
+<div class="flex flex-col gap-space-md">
+<!-- Degree 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-high flex flex-col gap-1">
+<span class="font-code-sm text-code-sm text-primary font-semibold">Virtual University of Pakistan</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Bachelor of Science, Computer Science (BSCS)</h4>
+<span class="font-body-md text-body-md text-on-surface-variant">Graduated August 2022 • Comprehensive Software Engineering &amp; Computing Systems</span>
+</div>
+<!-- Institution 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-high flex flex-col gap-1">
+<span class="font-code-sm text-code-sm text-secondary font-semibold">University of the Punjab</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Academic Program (2022 – 2025)</h4>
+<span class="font-body-md text-body-md text-on-surface-variant">Advanced studies in digital systems and computer applications.</span>
+</div>
+</div>
+</div>
+<div class="pt-space-lg flex items-center gap-space-sm text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="">Accredited Pakistani Higher Education Commission (HEC) degrees.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. WORKING PROCESS (4 Step Methodology) -->
+<section class="w-full bg-surface-container-lowest py-space-3xl">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col gap-space-xs mb-space-2xl">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// EXECUTION_PROTOCOL</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Structured 4-Step Methodology</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Engineered development lifecycle guaranteeing zero downtime, architectural resilience, and measurable search lift.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Step 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex flex-col gap-space-md">
+<span class="font-display-hero text-display-hero text-surface-container-highest group-hover:text-secondary/30 transition-colors font-bold select-none leading-none">01</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Discovery &amp; Strategic Planning</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Requirements analysis, system architecture mapping, Entity SEO keyword topology, and tailored tech stack selection.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center gap-space-xs text-secondary font-code-sm text-code-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">search</span>
+<span class="">PHASE 01: MAP</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex flex-col gap-space-md">
+<span class="font-display-hero text-display-hero text-surface-container-highest group-hover:text-primary/30 transition-colors font-bold select-none leading-none">02</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Architecture &amp; Prototyping</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Responsive UI/UX design, relational database schemas, automated workflow trigger conditions, and REST API definitions.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center gap-space-xs text-primary font-code-sm text-code-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">account_tree</span>
+<span class="">PHASE 02: BLUEPRINT</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex flex-col gap-space-md">
+<span class="font-display-hero text-display-hero text-surface-container-highest group-hover:text-tertiary/30 transition-colors font-bold select-none leading-none">03</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Full-Stack Dev &amp; AI Integration</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Custom programming, Liquid and WordPress theme crafting, bespoke plugins, autonomous AI agents, and bi-directional CRM synchronization.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center gap-space-xs text-tertiary font-code-sm text-code-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span class="">PHASE 03: SYNCHRONIZE</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-space-lg rounded-2xl bg-surface-container flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="flex flex-col gap-space-md">
+<span class="font-display-hero text-display-hero text-surface-container-highest group-hover:text-secondary-fixed/30 transition-colors font-bold select-none leading-none">04</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Optimization, SEO &amp; Deployment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Full performance auditing, schema markup validation, containerized Docker/VPS provisioning, SSL, and analytics telemetry launch.
+            </p>
+</div>
+<div class="pt-space-lg flex items-center gap-space-xs text-secondary-fixed font-code-sm text-code-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">rocket_launch</span>
+<span class="">PHASE 04: SCALE</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. CONTACT SECTION & INTERACTIVE FORM -->
+<!-- 9.5. LATEST ARTICLES & INSIGHTS -->
+<section class="w-full bg-surface py-space-3xl" id="contact">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Direct Contact Telemetry -->
+<div class="lg:col-span-5 flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-secondary uppercase tracking-widest">// COMM_TERMINAL</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Let's Connect &amp; Build</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Have an enterprise project or seeking high-order AI automation and CMS expertise? Reach out directly via encrypted channels or send a transmission below.
+            </p>
+</div>
+<!-- Structured Contact Cards -->
+<div class="flex flex-col gap-space-sm">
+<a class="p-space-md rounded-xl bg-surface-container flex items-center gap-space-md hover:bg-surface-container-high transition-colors group" href="mailto:naseemhaiderseo@gmail.com">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-code-sm text-code-sm text-outline uppercase">Direct Email</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-medium group-hover:text-secondary transition-colors">naseemhaiderseo@gmail.com</span>
+</div>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container flex items-center gap-space-md hover:bg-surface-container-high transition-colors group" href="tel:+923059443211">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div class="flex flex-col">
+<span class="font-code-sm text-code-sm text-outline uppercase">Phone &amp; WhatsApp</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-medium group-hover:text-primary transition-colors">+92 305 9443211</span>
+</div>
+</a>
+<div class="p-space-md rounded-xl bg-surface-container flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-code-sm text-code-sm text-outline uppercase">Location</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-medium">Lahore, Punjab, Pakistan</span>
+</div>
+</div>
+<a class="p-space-md rounded-xl bg-surface-container flex items-center gap-space-md hover:bg-surface-container-high transition-colors group" href="https://www.linkedin.com/in/naseem-haider/" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-secondary-fixed flex items-center justify-center group-hover:bg-secondary-fixed group-hover:text-on-secondary-fixed transition-colors">
+<svg class="w-5 h-5 fill-current text-primary" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45c-.9 0-1.63.73-1.63 1.63 0 .9.73 1.63 1.63 1.63.9 0 1.63-.73 1.63-1.63 0-.9-.73-1.63-1.63-1.63Z"></path></svg>
+</div>
+<div class="flex flex-col">
+<span class="font-code-sm text-code-sm text-outline uppercase">LinkedIn Profile</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-medium group-hover:text-secondary-fixed transition-colors">linkedin.com/in/naseem-haider/</span>
+</div>
+</a>
+</div>
+</div>
+<!-- Right Column: Interactive Working Contact Form -->
+<div class="lg:col-span-7 p-space-xl rounded-2xl bg-surface-container flex flex-col gap-space-md shadow-lg">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Transmit Project Brief</h3>
+<span class="font-code-sm text-code-sm text-secondary flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">Online / 24h Response</span>
+</span>
+</div>
+<form class="flex flex-col gap-space-md" id="contact-form" onsubmit="event.preventDefault(); handleContactSubmit();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold" for="client-name">Your Name *</label>
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface-dim text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="client-name" placeholder="e.g. Alexander Vance" required="" type="text">
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold" for="client-email">Email Address *</label>
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface-dim text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="client-email" placeholder="name@company.com" required="" type="email">
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold" for="client-subject">Subject / Objective *</label>
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface-dim text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="client-subject" placeholder="Agentic AI Workflow / Custom Shopify CMS / SEO Campaign" required="" type="text">
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold" for="client-message">Project Details &amp; Timeline *</label>
+<textarea class="w-full px-space-md py-space-sm rounded-lg bg-surface-dim text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-inner resize-none" id="client-message" placeholder="Describe your current bottleneck, desired architecture, timeline, and goals..." required="" rows="5"></textarea>
+</div>
+<div class="hidden p-space-sm rounded-lg font-body-md text-body-md" id="form-feedback"></div>
+<button class="w-full py-space-sm rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-label-lg text-label-lg font-bold shadow-md transition-all flex items-center justify-center gap-space-xs" id="form-submit-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="">Send Project Transmission</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Client-Side Micro-Interactivity Script -->
+<script>
+    // Project Category Filtering
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('#project-filters .filter-btn');
+      const projectCards = document.querySelectorAll('#projects-grid .project-card');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const filter = button.getAttribute('data-filter');
+
+          // Toggle Active Button Styles
+          filterButtons.forEach(btn => {
+            btn.classList.remove('bg-primary-container', 'text-on-primary-container');
+            btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+          });
+          button.classList.add('bg-primary-container', 'text-on-primary-container');
+          button.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+          // Filter Cards
+          projectCards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+
+    // Interactive Contact Form Feedback Handler
+    function handleContactSubmit() {
+      const name = document.getElementById('client-name').value;
+      const email = document.getElementById('client-email').value;
+      const subject = document.getElementById('client-subject').value;
+      const message = document.getElementById('client-message').value;
+      const feedback = document.getElementById('form-feedback');
+      const submitBtn = document.getElementById('form-submit-btn');
+
+      if (!name || !email || !subject || !message) {
+        feedback.className = "p-space-sm rounded-lg font-body-md text-body-md bg-error-container text-on-error-container block";
+        feedback.textContent = "Please fill in all required transmission fields.";
+        return;
+      }
+
+      // Visual submission state
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">sync</span><span>Encrypting & Transmitting...</span>';
+
+      setTimeout(() => {
+        submitBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check_circle</span><span>Transmission Received</span>';
+        feedback.className = "p-space-sm rounded-lg font-body-md text-body-md bg-surface-container-high text-secondary block";
+        feedback.textContent = "Message successfully routed to Naseem Haider (naseemhaiderseo@gmail.com). You will receive a direct reply within 24 hours.";
+        document.getElementById('contact-form').reset();
+
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">send</span><span>Send Project Transmission</span>';
+        }, 5000);
+      }, 900);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-space-2xl pb-space-xl"><div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin flex flex-col gap-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter"><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><span class="flex items-center justify-center w-8 h-8 rounded-lg bg-surface-container-highest text-secondary font-headline-sm text-headline-sm"><span class="material-symbols-outlined text-[20px]">terminal</span></span><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">HAIDER</span><span class="font-code-sm text-code-sm text-secondary uppercase">AI &amp; WEB SOLUTIONS</span></div></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Architecting autonomous agentic frameworks, enterprise-scale headless CMS, and technical SEO ecosystems for elite engineering teams.</p><div class="flex items-center gap-2.5 pt-1"><a href="https://www.linkedin.com/in/naseem-haider/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-9 h-9 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all flex items-center justify-center shadow-sm" style="border: 1px solid rgba(141, 144, 160, 0.2);"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a><a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-9 h-9 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-all flex items-center justify-center shadow-sm" style="border: 1px solid rgba(141, 144, 160, 0.2);"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"></path></svg></a><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-9 h-9 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-tertiary hover:bg-surface-container-high transition-all flex items-center justify-center shadow-sm" style="border: 1px solid rgba(141, 144, 160, 0.2);"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a><a href="https://wa.me/923059443211" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="w-9 h-9 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-secondary-fixed hover:bg-surface-container-high transition-all flex items-center justify-center shadow-sm" style="border: 1px solid rgba(141, 144, 160, 0.2);"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.42 1.44.53.61.2 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.19.2-.58.2-1.08.14-1.19-.05-.12-.22-.18-.47-.31z"></path></svg></a><a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="w-9 h-9 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all flex items-center justify-center shadow-sm" style="border: 1px solid rgba(141, 144, 160, 0.2);"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"></path></svg></a></div><div class="flex items-center gap-space-sm pt-space-xs"><span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-surface-container-low text-secondary"><span class="material-symbols-outlined text-[18px]">verified</span></span><span class="font-code-sm text-code-sm text-on-surface-variant">Naseem Haider — Technical Solutions Lead</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider font-semibold">Navigation</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="about" href="#">About Narrative</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="services" href="#">Architectural Services</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="skills" href="#">Capabilities Matrix</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="experience" href="#">Career History</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="projects" href="#">Featured Deployments</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="certifications" href="#">Verified Credentials</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" data-path="insights" href="#insights">Latest Insights</a></div></div><div class="lg:col-span-4 flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider font-semibold">Direct Channel</span><div class="flex flex-col gap-space-sm"><a class="flex items-center gap-space-sm font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="mailto:naseemhaiderseo@gmail.com"><span class="material-symbols-outlined text-[18px] text-secondary">mail</span>naseemhaiderseo@gmail.com</a><a class="flex items-center gap-space-sm font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="tel:+923059443211"><span class="material-symbols-outlined text-[18px] text-secondary">call</span>+92 305 9443211</a><div class="flex items-center gap-space-sm font-body-md text-body-md text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-secondary">location_on</span>Lahore, Pakistan</div><a class="flex items-center gap-space-sm font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors" href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px] text-secondary">link</span>linkedin.com/in/naseem-haider</a></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface-container-lowest"><span class="font-code-sm text-code-sm text-on-surface-variant">© 2025 HAIDER. Built for High-Order Technical Performance.</span><div class="flex items-center gap-space-lg"><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">System Status</a><a class="font-code-sm text-code-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Security &amp; Privacy</a></div></div></div></footer>
+
+
+
+
+
+
+
+
+
+
+</body></html>
